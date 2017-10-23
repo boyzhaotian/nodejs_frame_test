@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{color:white;}
+            ::-webkit-input-placeholder { /* WebKit browsers */
+                color: rgba(266, 242, 255, .7);
+            }
+            :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+                color: rgba(266, 242, 255, .7);
+            }
+            ::-moz-placeholder { /* Mozilla Firefox 19+ */
+                color: rgba(266, 242, 255, .7);
+            }
+            :-ms-input-placeholder { /* Internet Explorer 10+ */
+                color: rgba(266, 242, 255, .7);
+            }
+            html {
+                font-size-adjust: 100% !important;
+                -moz-text-size-adjust: 100% !important;
+                -webkit-text-size-adjust: 100% !important;
+                font-family: "Microsft YaHei";
+                font-size: 100%;
+                font-weight: 100;
+            }
+            body {
+                background-image: url(images/图层-1@3x.png);
+                background-size: 100%;
+            }
+            input,button,textarea{
+                outline: none;
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+                box-shadow: 0 1px 1px rgba(0, 0, 0, .6);                
+            }
+            .llb_header img {
+                width: 100%;
+            }
+            .llb_content {
+                background-image: url(images/矩形-4@3x.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                padding: 4rem 15%;
+            }
+            .llb_content form {
+                text-align: center;
+                padding: 0 20px;
+            }
+            .llb_content form .submit {
+                background-color: #e2f2ff;
+                line-height: 1.6875rem;
+                border-radius: .85rem;
+                color: #5092c5;
+                margin: 0 auto;
+                width: 80%;
+                border: 0;
+            }
+            .inputbox {
+                text-align: left;
+            }
+            .inputbox.checkbox {
+                font-size: .5rem;
+            }
+            .llb_input {
+                background-color: transparent;
+                border: 3px solid rgba(255, 255, 255, .8);
+                border-radius: 3px;
+                line-height: 1.25rem;
+                font-size: .75rem;
+                padding: 0 1rem;
+                width: 100%;
+                font-weight: 100;                
+                margin-bottom: 1rem;
+                box-sizing: border-box;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="llb_header"><img src="images/组-3@3x.png" alt=""></div>
+        <div class="llb_content">
+            <form action="">
+                <div class="inputbox"><input class="llb_input" type="text" placeholder="请输入11位手机号"></div>
+                <div class="inputbox"><button style="float:right;">获取验证码</button><div style="display:-webkit-box;padding-right:.5625rem;"><input class="llb_input" type="text" placeholder="请输入验证码"></div></div>
+                <div class="inputbox checkbox"><input type="checkbox" style="vertical-align:middle;box-shadow:none;">我已阅读并同意光明理论号的领取教程。</div>
+                <button class="submit" type="submit">点击领取</button>
+            </form>
+            <div class="llb_guide">
+                <img src="images/领取教程@3x.png" alt="" style="width:100%;">
+                １．活动内容：
+                <br>活动期间，凡是中国移动的客户进入理论号活动页面后，输入手机号码提交信息即可得到150M流量。(当月流量没使用完可累积到下月使用)。
+                <br>
+                <br>２．活动规则：
+                <br>（１）此活动限于中国移动客户；
+                <br>（２）因用户停机保号、欠费、业务不支持等情况，导致无法充值，则视为用户自动放弃赠送流量，请谅解；
+                <br>（３）活动期间用户最多可领取150M流量５次。
+                <img src="images/图层-5@3x.png" alt="" style="width:50%;position:absolute;">
+            </div>
+        </div>
+    </body>
+</html>
